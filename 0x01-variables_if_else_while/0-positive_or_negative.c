@@ -2,8 +2,14 @@
 /**
  * main - print out the function
  * Return: returns the sring "STATEMENT"
+ * Return(void): Return and displays the return value
  */
-char main(void)
+const char Return(void)
+{
+	char Value[9] = "STATEMENT";
+	return (Value);
+}
+int main(void)
 {
 	int n;
 	printf("Enter a number: \n");
@@ -18,5 +24,5 @@ char main(void)
 	{
 		printf("%d is negative", n);
 	}
-	return ("STATEMENT");
+	printf("%s", Return());
 }
