@@ -3,7 +3,7 @@
  * main - print out the function
  * Return: returns the sring "STATEMENT"
  */
-int main(void)
+char main(void)
 {
 	int n;
 	printf("Enter a number: \n");
