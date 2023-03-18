@@ -1,19 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - print out the function
- * Return: returns the sring "STATEMENT"
- * Return(void): Return and displays the return value
+ * main - compiles the code into a file
  */
-const char Return(void)
-{
-	char Value[9] = "STATEMENT";
-	return (Value);
-}
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
-	printf("Enter a number: \n");
-	scanf("%d", &n);
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	if (n > 0)
 	{
 		printf("%d is positive", n);
@@ -22,7 +21,7 @@ int main(void)
 		printf("%d is zero", n);
 	} else
 	{
-		printf("%d is negative", n);
+		printf("%d is negetive", n);
 	}
-	printf("%s", Return());
+	return (0);
 }
