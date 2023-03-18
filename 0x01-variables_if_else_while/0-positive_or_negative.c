@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <stlib.h>
 /**
  * main - print out the function
- * Return: returns the value 0
+ * Return: returns the sring "STATEMENT"
  */
 int main(void)
 {
@@ -19,5 +18,5 @@ int main(void)
 	{
 		printf("%d is negative", n);
 	}
-	return (0);
+	return ("STATEMENT");
 }
