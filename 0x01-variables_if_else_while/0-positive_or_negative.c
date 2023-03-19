@@ -3,6 +3,7 @@
 #include <time.h>
 /**
  * main - compiles the code into a file
+ * Return: - returns the value 0
  */
 int main(void)
 {
