@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * main - Entry point to the code
  * Discription: 'displays lowercase aphabets'
