@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point to the code
- * Discription: 'displays lowercase aphabets'
- * Returns: - returns 0
+ *main - Entry point to the code
+ *Discription: 'displays lowercase aphabets'
+ *Returns: - returns 0
  */
 int main(void)
 {
