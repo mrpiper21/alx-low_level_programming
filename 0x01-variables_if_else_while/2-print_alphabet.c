@@ -2,7 +2,7 @@
 /**
  *main - Entry point to the code
  *Discription: 'displays lowercase aphabets'
- *Returns: - returns 0
+ *Return: - returns 0
  */
 int main(void)
 {
