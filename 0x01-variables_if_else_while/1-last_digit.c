@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** 
- * main - stores the code into one single file 
-/* betty style doc for function main goes there */
+/**
+ * main - stores the code into one single file
+ * Return: - returns the value 0
+ */
 int main(void)
 {
 	int n;

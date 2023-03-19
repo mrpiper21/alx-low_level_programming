@@ -4,8 +4,6 @@
 /**
  * main - compiles the code into a file
  */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
