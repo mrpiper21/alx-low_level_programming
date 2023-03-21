@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program that prints all possible combinations of two two-digit numbers
+ * main - prints all possible combi of two two-digit numbers
  * Return: returns 0
  */
 
