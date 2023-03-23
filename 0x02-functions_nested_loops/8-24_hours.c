@@ -1,17 +1,23 @@
 #include "main.h"
-
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * @a - number to be computed
+ * @b - number to be computed
+ * @c - number to be computed
+ * @d - number to be computed
+ */
 void jack_bauer(void)
 {
 	int a;
 	int b;
-        int c;
+	int c;
 	int d;
 
 	for (a = 0; a <= 2; a++)
 	{
 	for (b = 0; b <= 9; b++)
 	{
-	if ((a <= 1 && b <= 9) || (a <=2 && b <= 3))
+	if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 	{
 	for (c = 0; c <= 5; c++)
 	{
