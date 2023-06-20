@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - check for lower case letters
+ * _isalpha - check for lowercase letters
  * @c: The chr to be checked
  * Return: returns 1 if c is a letter, lowercase or uppercase else 0
  */
