@@ -3,7 +3,7 @@
  * add - Adds two values
  * Int add - initializes the two values
  * @n1: First num to be computed
- * @n2 - Second num to be computed
+ * @n2: Second num to be computed
  * Return: returns an integer value
  */
 
